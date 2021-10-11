@@ -1,7 +1,11 @@
 <template>
 	<div class="container">
-		<nav><strong class="font-extrabold">Wifeapedia</strong></nav>
-		<main>
+		<nav>
+			<NuxtLink to="/">
+				<strong class="font-extrabold">Wifeapedia</strong>
+			</NuxtLink>
+		</nav>
+		<main class="container p-4">
 			<Nuxt />
 		</main>
 	</div>
