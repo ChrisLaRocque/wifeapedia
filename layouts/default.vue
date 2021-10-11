@@ -1,5 +1,5 @@
 <template>
-	<div class="container">
+	<div class="container mx-auto">
 		<nav>
 			<NuxtLink to="/">
 				<strong class="font-extrabold">Wifeapedia</strong>
