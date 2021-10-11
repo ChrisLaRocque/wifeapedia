@@ -1,0 +1,30 @@
+{
+  "name": "wifeapedia",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4",
+    "contentful": "^9.0.3",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.3.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.19.1",
+    "fibers": "^5.0.0",
+    "postcss": "^8.3.9",
+    "prettier": "^2.4.1",
+    "sass": "^1.42.1",
+    "sass-loader": "10",
+    "tailwindcss": "^2.2.16"
+  }
+}
