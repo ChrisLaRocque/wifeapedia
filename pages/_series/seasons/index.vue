@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>All seasons for Wife Swap {{ series.fields.title }}</h1>
-    <p class="mb-2" v-html="$md.render(series.fields.description)"></p>
-		<TableList :table-data="seasons"/>
+  <div class="container p-4 mx-auto">
+    <h1 class="text-3xl font-extrabold">All seasons for Wife Swap {{ series.fields.title }}</h1>
+    <p class="mt-2 mb-4" v-html="$md.render(series.fields.description)"></p>
+		<TableList :table-data="seasons" ctaText="Season info"/>
 	</div>
 </template>
 

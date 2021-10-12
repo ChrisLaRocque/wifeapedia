@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>Wife Swap {{ series.fields.title }}</h1>
-    <p>{{ series.fields.description }}</p>
+  <div class="container p-4 mx-auto">
+    <h1 class="text-3xl font-extrabold">{{ series.fields.title }}</h1>
+    <p class="mt-2 mb-4">{{ series.fields.description }}</p>
     <NuxtLink :to="`${$nuxt.$route.path}/seasons/`">
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
         Seasons

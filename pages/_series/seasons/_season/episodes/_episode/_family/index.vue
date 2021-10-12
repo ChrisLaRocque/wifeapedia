@@ -1,6 +1,12 @@
 <template>
-  <div class="container mx-auto">
-    <h1 class="text-3xl">{{ family.title }} family</h1>
+  <div class="container p-4 mx-auto">
+		<div class="flex">
+			<div class="family-text">
+				<h1 class="text-3xl font-extrabold">{{ family.title }} family</h1>
+				<p class="mt-2 mb-4" v-html="$md.render(family.bio)"></p>
+			</div>
+			<img v-if="family.photo" :src="family.photo.fields.file.url" class="object-contain h-72 w-full" alt="">
+		</div>
 		<PeopleCards :people="family.members" />
   </div>
 </template>

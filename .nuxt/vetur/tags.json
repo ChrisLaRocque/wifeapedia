@@ -8,6 +8,9 @@
   "PeopleCards": {
     "description": "Auto imported from components/PeopleCards.vue"
   },
+  "QuoteCards": {
+    "description": "Auto imported from components/QuoteCards.vue"
+  },
   "TableList": {
     "description": "Auto imported from components/TableList.vue"
   }

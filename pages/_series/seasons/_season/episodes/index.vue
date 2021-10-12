@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>{{ season.fields.title }} | All episodes</h1>
-    <p>{{ season.fields.description }}</p>
-    <TableList :table-data="episodes"/>
+  <div class="container p-4 mx-auto">
+    <h1 class="text-3xl font-extrabold">{{ season.fields.title }} | All episodes</h1>
+    <p class="mt-2 mb-4">{{ season.fields.description }}</p>
+    <TableList :table-data="episodes" ctaText="Episode info"/>
   </div>
 </template>
 
