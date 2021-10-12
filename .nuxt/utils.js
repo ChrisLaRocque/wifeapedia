@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"CTF_SPACE_ID":"i1trowbjm312","CTF_CDA_ACCESS_TOKEN":"e211707c967468d6f9b0f953bc6900fcdde12035c8c52254a9cd4fffcaf8d01e"}
+      env: {"CTF_SPACE_ID":"i1trowbjm312","CTF_CDA_ACCESS_TOKEN":"e211707c967468d6f9b0f953bc6900fcdde12035c8c52254a9cd4fffcaf8d01e","CTF_CPA_ACCESS_TOKEN":"f90f50c3abdb0fca89ff39e7b6ce0c8dc139f62a7bc5addb6b7c7d28e0328534"}
     }
     // Only set once
 

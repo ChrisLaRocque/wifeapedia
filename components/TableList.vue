@@ -12,7 +12,7 @@
 				<td class="border px-4 py-2">{{ data.fields.seasonNumber || data.fields.episodeNumber}}</td>
 				<td class="border px-4 py-2">{{ data.fields.title }}</td>
 				<td class="border px-4 py-2"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      <NuxtLink :to="`${prepend ? `${prepend}/` : ''}${data.fields.seasonNumber || data.fields.episodeNumber}`">{{ctaText || 'Learn more'}}</NuxtLink>
+      <NuxtLink :to="`${prepend ? `${prepend}` : ''}${data.fields.seasonNumber || data.fields.episodeNumber}`">{{ctaText || 'Learn more'}}</NuxtLink>
     </button></td>
 			</tr>
 		</tbody>

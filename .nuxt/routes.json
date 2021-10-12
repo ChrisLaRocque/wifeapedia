@@ -3,49 +3,42 @@
     "name": "index",
     "path": "/",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_05733aa6"
+    "chunkName": "pages/index"
   },
   {
     "name": "series",
     "path": "/:series",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/index.vue",
-    "chunkName": "pages/_series/index",
-    "_name": "_0ed5fb6d"
+    "chunkName": "pages/_series/index"
   },
   {
     "name": "series-seasons",
     "path": "/:series/seasons",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/index.vue",
-    "chunkName": "pages/_series/seasons/index",
-    "_name": "_78b7530e"
+    "chunkName": "pages/_series/seasons/index"
   },
   {
     "name": "series-seasons-season",
     "path": "/:series/seasons/:season",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/index.vue",
-    "chunkName": "pages/_series/seasons/_season/index",
-    "_name": "_5a2c0141"
+    "chunkName": "pages/_series/seasons/_season/index"
   },
   {
     "name": "series-seasons-season-episodes",
     "path": "/:series/seasons/:season/episodes",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/episodes/index.vue",
-    "chunkName": "pages/_series/seasons/_season/episodes/index",
-    "_name": "_fa3d4408"
+    "chunkName": "pages/_series/seasons/_season/episodes/index"
   },
   {
     "name": "series-seasons-season-episodes-episode",
     "path": "/:series/seasons/:season/episodes/:episode",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/episodes/_episode/index.vue",
-    "chunkName": "pages/_series/seasons/_season/episodes/_episode/index",
-    "_name": "_5cb13985"
+    "chunkName": "pages/_series/seasons/_season/episodes/_episode/index"
   },
   {
     "name": "series-seasons-season-episodes-episode-family",
     "path": "/:series/seasons/:season/episodes/:episode/:family",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/episodes/_episode/_family/index.vue",
-    "chunkName": "pages/_series/seasons/_season/episodes/_episode/_family/index",
-    "_name": "_54df83f9"
+    "chunkName": "pages/_series/seasons/_season/episodes/_episode/_family/index"
   }
 ]
