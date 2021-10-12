@@ -23,7 +23,7 @@
         }),
       ])
         .then(([seasons]) => {
-					const season = seasons.items.filter(item => item.fields.slug == params.season)[0]
+					const season = seasons.items.filter(item => item.fields.seasonNumber == params.season)[0]
           const episodes = season.fields.episodes
           return {
 						season: season,
