@@ -2,15 +2,7 @@
   <div>
     <h1>Seasons for {{ series.fields.title }}</h1>
     <p>{{ series.fields.description }}</p>
-		<ul id="seasons-list">
-			<li v-for="season in seasons" :key="season.fields.title">
-						<NuxtLink :to="`${$nuxt.$route.path}${season.fields.seasonNumber}/`">
-							<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-  							{{ season.fields.title }}
-							</button>
-						</NuxtLink>
-			</li>
-		</ul>
+		<TableList :table-data="seasons"/>
 	</div>
 </template>
 

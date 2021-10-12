@@ -2,11 +2,7 @@
   <div>
     <h1>{{ season.fields.title }} episodes</h1>
     <p>{{ season.fields.description }}</p>
-    <ul id="episodes-list">
-			<li v-for="episode in episodes" :key="episode.fields.title">
-						<NuxtLink :to="`${$nuxt.$route.path}episodes/${episode.fields.episodeNumber}/`">{{ episode.fields.title }}</NuxtLink>
-			</li>
-		</ul>
+    <TableList :table-data="episodes"/>
   </div>
 </template>
 

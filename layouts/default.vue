@@ -1,10 +1,6 @@
 <template>
-	<div class="container mx-auto">
-		<nav>
-			<NuxtLink to="/">
-				<strong class="font-extrabold">Wifeapedia</strong>
-			</NuxtLink>
-		</nav>
+	<div class="mx-auto">
+		<Nav />
 		<main class="container p-4">
 			<Nuxt />
 		</main>

@@ -1,12 +1,15 @@
 <template>
-	<main>
+	<main class="container mx-auto">
 		<h1>Home</h1>
     <p>Hi Becca</p>
     <p style="font-size:100px">&#128525;</p>
-
-		<NuxtLink to="/us"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <div class="container mx-auto p-4">
+      <h2 class="text-xl font-extrabold uppercase">Series</h2>
+        <NuxtLink to="/us"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
       US
     </button></NuxtLink>
+    </div>
+		
 	</main>
 </template>
 <script>

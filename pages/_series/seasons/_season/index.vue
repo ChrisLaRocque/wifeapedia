@@ -2,17 +2,9 @@
   <div>
     <h1>{{ season.fields.title }}</h1>
     <p>{{ season.fields.description }}</p>
-    <ul id="episodes-list">
-			<li v-for="episode in episodes" :key="episode.fields.title">
-						<NuxtLink :to="`${$nuxt.$route.path}episodes/${episode.fields.episodeNumber}/`">
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                {{ episode.fields.title }}
-              </button>
-            </NuxtLink>
-			</li>
-		</ul>
+    <TableList :table-data="episodes" :prepend="`${$nuxt.$route.path}/episodes`"/>
     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      <NuxtLink :to="`${$nuxt.$route.path}episodes/`">All episodes</NuxtLink>
+      <NuxtLink :to="`${$nuxt.$route.path}/episodes/`">All episodes</NuxtLink>
     </button>
   </div>
 </template>
@@ -31,7 +23,6 @@
       ])
         .then(([seasons]) => {
 					const season = seasons.items.filter(item => item.fields.seasonNumber == params.season)[0]
-          console.log(season)
           const episodes = season.fields.episodes
           return {
 						season: season,
