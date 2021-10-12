@@ -1,8 +1,8 @@
-export { default as FamilyCards } from '../../components/FamilyCards.vue'
-export { default as Nav } from '../../components/Nav.vue'
-export { default as PeopleCards } from '../../components/PeopleCards.vue'
-export { default as QuoteCards } from '../../components/QuoteCards.vue'
-export { default as TableList } from '../../components/TableList.vue'
+export const FamilyCards = () => import('../../components/FamilyCards.vue' /* webpackChunkName: "components/family-cards" */).then(c => wrapFunctional(c.default || c))
+export const Nav = () => import('../../components/Nav.vue' /* webpackChunkName: "components/nav" */).then(c => wrapFunctional(c.default || c))
+export const PeopleCards = () => import('../../components/PeopleCards.vue' /* webpackChunkName: "components/people-cards" */).then(c => wrapFunctional(c.default || c))
+export const QuoteCards = () => import('../../components/QuoteCards.vue' /* webpackChunkName: "components/quote-cards" */).then(c => wrapFunctional(c.default || c))
+export const TableList = () => import('../../components/TableList.vue' /* webpackChunkName: "components/table-list" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

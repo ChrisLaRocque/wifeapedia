@@ -1,6 +1,7 @@
 const config = require('./.contentful.json');
 
 export default {
+  target: 'static', // default is 'server'
 	modules: ['@nuxt/http', '@nuxtjs/markdownit'],
   buildModules: ['@nuxtjs/tailwindcss'],
   plugins: ['~/plugins/preview.client.js'],
@@ -29,5 +30,7 @@ export default {
   markdownit: {
     html: true,
   },
-
+  generate: {
+    fallback: true
+  }
 }
