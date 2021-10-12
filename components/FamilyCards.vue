@@ -1,5 +1,5 @@
 <template>
-	<div class="grid grid-cols-3 gap-4 mt-4 pt-2 border-t-2">
+	<div class="lg:grid grid-cols-3 gap-4 mt-4 pt-2 border-t-2">
 		<div class="family-blurb">
 			<h4 class="font-extrabold text-2xl">Families from this episode</h4>
 			<p>Learn about the participating families and where they are now.</p>

@@ -20,7 +20,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Wifeswap fan wiki'
+        content: 'Wife Swap wiki covering Wife Swap US'
       }
     ],
   }
