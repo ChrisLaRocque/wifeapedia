@@ -10,6 +10,7 @@ const _78b7530e = () => interopDefault(import('../pages/_series/seasons/index.vu
 const _5a2c0141 = () => interopDefault(import('../pages/_series/seasons/_season/index.vue' /* webpackChunkName: "pages/_series/seasons/_season/index" */))
 const _fa3d4408 = () => interopDefault(import('../pages/_series/seasons/_season/episodes/index.vue' /* webpackChunkName: "pages/_series/seasons/_season/episodes/index" */))
 const _5cb13985 = () => interopDefault(import('../pages/_series/seasons/_season/episodes/_episode/index.vue' /* webpackChunkName: "pages/_series/seasons/_season/episodes/_episode/index" */))
+const _54df83f9 = () => interopDefault(import('../pages/_series/seasons/_season/episodes/_episode/_family/index.vue' /* webpackChunkName: "pages/_series/seasons/_season/episodes/_episode/_family/index" */))
 
 const emptyFn = () => {}
 
@@ -46,6 +47,10 @@ export const routerOptions = {
     path: "/:series/seasons/:season/episodes/:episode",
     component: _5cb13985,
     name: "series-seasons-season-episodes-episode"
+  }, {
+    path: "/:series/seasons/:season/episodes/:episode/:family",
+    component: _54df83f9,
+    name: "series-seasons-season-episodes-episode-family"
   }],
 
   fallback: false

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Seasons for {{ series.fields.title }}</h1>
-    <p>{{ series.fields.description }}</p>
+    <h1>All seasons for Wife Swap {{ series.fields.title }}</h1>
+    <p class="mb-2" v-html="$md.render(series.fields.description)"></p>
 		<TableList :table-data="seasons"/>
 	</div>
 </template>

@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>{{ season.fields.title }}</h1>
-    <p>{{ season.fields.description }}</p>
+    <p v-html="$md.render(season.fields.description)"></p>
     <TableList :table-data="episodes" :prepend="`${$nuxt.$route.path}/episodes`"/>
-    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-2 rounded">
       <NuxtLink :to="`${$nuxt.$route.path}/episodes/`">All episodes</NuxtLink>
     </button>
   </div>

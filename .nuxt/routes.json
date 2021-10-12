@@ -40,5 +40,12 @@
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/episodes/_episode/index.vue",
     "chunkName": "pages/_series/seasons/_season/episodes/_episode/index",
     "_name": "_5cb13985"
+  },
+  {
+    "name": "series-seasons-season-episodes-episode-family",
+    "path": "/:series/seasons/:season/episodes/:episode/:family",
+    "component": "/Users/chrislarocque/Documents/wifeapedia/pages/_series/seasons/_season/episodes/_episode/_family/index.vue",
+    "chunkName": "pages/_series/seasons/_season/episodes/_episode/_family/index",
+    "_name": "_54df83f9"
   }
 ]

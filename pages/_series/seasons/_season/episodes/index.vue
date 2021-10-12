@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ season.fields.title }} episodes</h1>
+    <h1>{{ season.fields.title }} | All episodes</h1>
     <p>{{ season.fields.description }}</p>
     <TableList :table-data="episodes"/>
   </div>

@@ -1,6 +1,12 @@
 {
+  "FamilyCards": {
+    "description": "Auto imported from components/FamilyCards.vue"
+  },
   "Nav": {
     "description": "Auto imported from components/Nav.vue"
+  },
+  "PeopleCards": {
+    "description": "Auto imported from components/PeopleCards.vue"
   },
   "TableList": {
     "description": "Auto imported from components/TableList.vue"

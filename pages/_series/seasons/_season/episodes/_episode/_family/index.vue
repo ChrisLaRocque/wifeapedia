@@ -1,8 +1,7 @@
 <template>
   <div class="container mx-auto">
-    <h1 class="text-3xl">{{ episode.title }}</h1>
-    <p>{{ episode.description }}</p>
-    <FamilyCards :families="episode.families"/>
+    <h1 class="text-3xl">{{ family.title }} family</h1>
+		<PeopleCards :people="family.members" />
   </div>
 </template>
 
@@ -15,26 +14,26 @@
     asyncData({ params }) {
       return Promise.all([
         client.getEntries({
-          'sys.contentType.sys.id': 'episode',
-          'include':10,
+          'sys.contentType.sys.id': 'family',
+					'include':5,
         })
       ])
-        .then(([episodes]) => {
-					const episode = episodes.items.filter(item => item.fields.episodeNumber == params.episode)[0].fields
+        .then(([families]) => {
+					const family = families.items.filter(item => item.fields.slug == params.family)[0].fields
           return {
-						episode: episode
+						family: family
 					}
         })
         .catch(console.error);
     },
 		head() {
 			return {
-			title: this.episode.title,
+			title: `${this.family.title} family`,
 			meta: [
 				{
 					hid: 'description',
 					name: 'description',
-					content: this.episode.description
+					content: this.family.description
 				}
 			],
 			}

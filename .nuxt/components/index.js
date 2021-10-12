@@ -1,4 +1,6 @@
+export { default as FamilyCards } from '../../components/FamilyCards.vue'
 export { default as Nav } from '../../components/Nav.vue'
+export { default as PeopleCards } from '../../components/PeopleCards.vue'
 export { default as TableList } from '../../components/TableList.vue'
 
 // nuxt/nuxt.js#8607

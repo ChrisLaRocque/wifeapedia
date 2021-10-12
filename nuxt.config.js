@@ -2,7 +2,7 @@ const config = require('./.contentful.json');
 
 export default {
   target: 'static', // default is 'server'
-	modules: ['@nuxt/http'],
+	modules: ['@nuxt/http', '@nuxtjs/markdownit'],
   buildModules: ['@nuxtjs/tailwindcss'],
 	head: {
     title: 'Wifeapedia',
