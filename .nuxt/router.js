@@ -4,6 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _9b56da3c = () => interopDefault(import('../pages/theories/index.vue' /* webpackChunkName: "pages/theories/index" */))
+const _ff8416d2 = () => interopDefault(import('../pages/theories/_theory/index.vue' /* webpackChunkName: "pages/theories/_theory/index" */))
 const _05733aa6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _0ed5fb6d = () => interopDefault(import('../pages/_series/index.vue' /* webpackChunkName: "pages/_series/index" */))
 const _78b7530e = () => interopDefault(import('../pages/_series/seasons/index.vue' /* webpackChunkName: "pages/_series/seasons/index" */))
@@ -24,6 +26,14 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/theories",
+    component: _9b56da3c,
+    name: "theories"
+  }, {
+    path: "/theories/:theory",
+    component: _ff8416d2,
+    name: "theories-theory"
+  }, {
     path: "/",
     component: _05733aa6,
     name: "index"

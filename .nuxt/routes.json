@@ -1,5 +1,17 @@
 [
   {
+    "name": "theories",
+    "path": "/theories",
+    "component": "/Users/chrislarocque/Documents/wifeapedia/pages/theories/index.vue",
+    "chunkName": "pages/theories/index"
+  },
+  {
+    "name": "theories-theory",
+    "path": "/theories/:theory",
+    "component": "/Users/chrislarocque/Documents/wifeapedia/pages/theories/_theory/index.vue",
+    "chunkName": "pages/theories/_theory/index"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/index.vue",
