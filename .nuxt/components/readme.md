@@ -11,3 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<PeopleCards>` | `<people-cards>` (components/PeopleCards.vue)
 - `<QuoteCards>` | `<quote-cards>` (components/QuoteCards.vue)
 - `<TableList>` | `<table-list>` (components/TableList.vue)
+- `<UserAuthForm>` | `<user-auth-form>` (components/UserAuthForm.vue)

@@ -1,5 +1,19 @@
 [
   {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/chrislarocque/Documents/wifeapedia/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_76876280"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/chrislarocque/Documents/wifeapedia/pages/register/index.vue",
+    "chunkName": "pages/register/index",
+    "_name": "_6bccd142"
+  },
+  {
     "name": "theories",
     "path": "/theories",
     "component": "/Users/chrislarocque/Documents/wifeapedia/pages/theories/index.vue",

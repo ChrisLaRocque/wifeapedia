@@ -13,5 +13,8 @@
   },
   "TableList": {
     "description": "Auto imported from components/TableList.vue"
+  },
+  "UserAuthForm": {
+    "description": "Auto imported from components/UserAuthForm.vue"
   }
 }

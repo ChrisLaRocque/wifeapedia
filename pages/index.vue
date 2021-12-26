@@ -15,6 +15,11 @@
               UK
             </button>
           </NuxtLink>
+          <NuxtLink to="/celebrity-wife-swap">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Celebrity Wife Swap
+            </button>
+          </NuxtLink>
       </div>
       <div class="p-6">
         <h2 class="text-2xl font-black uppercase mb-2">Theories</h2>
